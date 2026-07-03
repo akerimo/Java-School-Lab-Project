@@ -1,17 +1,16 @@
-
 # 🏦 Simple Banking Application
 
-A robust, desktop-based retail banking application built using **Java (Swing GUI)** and **Microsoft SQL Server**. This project serves as an academic term project implementing a clean 3-Tier Architecture to demonstrate Object-Oriented Programming (OOP) concepts, rigorous exception handling, and database normalization patterns.
+This is my School term project for Java lab. I built it when I am taking Java OOP. It is a robust, desktop-based retail banking application built using **Java (Swing GUI)** and **Microsoft SQL Server**. This project serves as an academic term project implementing a clean 3-Tier Architecture to demonstrate Object-Oriented Programming (OOP) concepts, rigorous exception handling, and database normalization patterns.
 
 ---
 
 ## 🚀 Key Features
 
-* **User Authentication:** Secure registration and login portals for account owners.
-* **Core Banking Engine:** Real-time processing for monetary **Deposits** and **Withdrawals**.
-* **Inter-Account Transfers:** Atomic funds transfers linking sender and receiver accounts seamlessly.
-* **Auditing & Accounting:** Dynamic balance inquiries and generation of a complete account transaction statement record.
-* **Currency Converter:** Built-in modular utility tool for multi-currency conversion calculations.
+- **User Authentication:** Secure registration and login portals for account owners.
+- **Core Banking Engine:** Real-time processing for monetary **Deposits** and **Withdrawals**.
+- **Inter-Account Transfers:** Atomic funds transfers linking sender and receiver accounts seamlessly.
+- **Auditing & Accounting:** Dynamic balance inquiries and generation of a complete account transaction statement record.
+- **Currency Converter:** Built-in modular utility tool for multi-currency conversion calculations.
 
 ---
 

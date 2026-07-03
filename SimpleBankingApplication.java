@@ -13,6 +13,23 @@ Project Title: Simple Banking Application
 */
 
 
+import java.sql.Connection;
+import java.sql.SQLException;
+import com.banking.util.DatabaseConnection;
+
 public class SimpleBankingApplication {
-    
+    public static void main(String[] args) {
+        System.out.println("Attempting to connect to MS SQL Server...");
+
+        // Try-with-resources automatically closes the connection when done
+        try (Connection conn = DatabaseConnection.getConnection()) {
+            if (conn != null && !conn.isClosed()) {
+                System.out.println("SUCCESS: Connected to the database smoothly!");
+            }
+        } catch (SQLException e) {
+            System.err.println("CONNECTION FAILED!");
+            System.err.println("Error Message: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
 }
