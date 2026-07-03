@@ -19,7 +19,7 @@ This is my School term project for Java lab. I built it when I am taking Java OO
 The system is engineered using a **3-Tier Architecture** pattern to isolate concerns and maintain a modular codebase:
 
 ```text
-project/
+Java School lab Project/
 │
 ├── lib/                             # External Native Libraries & JAR Dependencies
 │   ├── mssql-jdbc-13.4.0.jre11.jar   # Microsoft JDBC Database Connection Driver
