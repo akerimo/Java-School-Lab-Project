@@ -25,6 +25,9 @@ Java School lab Project/
 │   ├── mssql-jdbc-13.4.0.jre11.jar   # Microsoft JDBC Database Connection Driver
 │   └── mssql-jdbc_auth-13.4.0.x64.dll # Native Windows Authentication Library
 │
+|── SQL/                             # External Native Libraries & JAR Dependencies
+│   ├── SQL-query-1                  # SQL Query for creating User, Accounts, Transactions and Transfers Tables.
+│
 ├── src/                             # Application Source Code
 │   ├── com/banking/
 │   │   ├── model/                   # Object-Oriented Encapsulated Entities
