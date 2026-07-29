@@ -1,5 +1,4 @@
 
-
 /*
 This is Java lab project, Which implements OOP using Java. with GUI and Exception handling. Also Database have a Database connection
 Project Title: Simple Banking Application
@@ -11,6 +10,8 @@ Project Title: Simple Banking Application
               6. user can see their full statements
               7. user can make currency converter
 */
+
+//Github repo: https://github.com/akerimo/Java-School-Lab-Project
 
 import javax.swing.SwingUtilities;
 import com.banking.ui.LoginFrame;;
