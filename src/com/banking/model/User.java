@@ -1,51 +1,43 @@
 package com.banking.model;
 
 public class User {
-    
-    private int userID;
+    private int userId;
     private String username;
     private String password;
     private String fullName;
+    private String nationalId;
+    private String phoneNumber;
 
-    public User(int userID, String username, String password, String fullName ){
-        this.userID = userID;
+    public User(int userId, String username, String password, String fullName, String nationalId, String phoneNumber) {
+        this.userId = userId;
         this.username = username;
         this.password = password;
         this.fullName = fullName;
+        this.nationalId = nationalId;
+        this.phoneNumber = phoneNumber;
     }
 
-
-    //getters and setters for private fields
-    public int getUserId(){
-        return userID;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setUserId(int userId){
-        this.userID = userId;
-    }
-    
     public String getUsername() {
         return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
     public String getFullName() {
         return fullName;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public String getNationalId() {
+        return nationalId;
     }
-    
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
 }
